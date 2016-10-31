@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C785BAA1DC2D68E00D54D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C785BA91DC2D68E00D54D15 /* AppDelegate.swift */; };
+		9C785BAF1DC2D68E00D54D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C785BAD1DC2D68E00D54D15 /* Main.storyboard */; };
+		9C785BB11DC2D68E00D54D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C785BB01DC2D68E00D54D15 /* Assets.xcassets */; };
+		9C785BB41DC2D68E00D54D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C785BB21DC2D68E00D54D15 /* LaunchScreen.storyboard */; };
+		9C785BBF1DC2D68E00D54D15 /* libraryOfCongressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C785BBE1DC2D68E00D54D15 /* libraryOfCongressTests.swift */; };
+		9C785BCA1DC2D68E00D54D15 /* libraryOfCongressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C785BC91DC2D68E00D54D15 /* libraryOfCongressUITests.swift */; };
+		9C785BD81DC2D6ED00D54D15 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C785BD71DC2D6ED00D54D15 /* ApiManager.swift */; };
+		9C785BDA1DC2DA3D00D54D15 /* libraryCongressImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C785BD91DC2DA3D00D54D15 /* libraryCongressImage.swift */; };
+		9C785C221DC69CA800D54D15 /* UIImageExtension .swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C785C211DC69CA800D54D15 /* UIImageExtension .swift */; };
+		9C785C241DC69E9C00D54D15 /* LibraryCongressTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C785C231DC69E9C00D54D15 /* LibraryCongressTableViewController.swift */; };
+		9C785C261DC6A20400D54D15 /* LibraryCongressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C785C251DC6A20400D54D15 /* LibraryCongressTableViewCell.swift */; };
+		9C785C281DC6AFA100D54D15 /* libraryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C785C271DC6AFA100D54D15 /* libraryDetailViewController.swift */; };
+		9C785C2A1DC6FE7E00D54D15 /* libraryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C785C291DC6FE7E00D54D15 /* libraryDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C785BBB1DC2D68E00D54D15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C785B9E1DC2D68D00D54D15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C785BA51DC2D68E00D54D15;
+			remoteInfo = libraryOfCongress;
+		};
+		9C785BC61DC2D68E00D54D15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C785B9E1DC2D68D00D54D15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C785BA51DC2D68E00D54D15;
+			remoteInfo = libraryOfCongress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C785BA61DC2D68E00D54D15 /* libraryOfCongress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libraryOfCongress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C785BA91DC2D68E00D54D15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C785BAE1DC2D68E00D54D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C785BB01DC2D68E00D54D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C785BB31DC2D68E00D54D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C785BB51DC2D68E00D54D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C785BBA1DC2D68E00D54D15 /* libraryOfCongressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libraryOfCongressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C785BBE1DC2D68E00D54D15 /* libraryOfCongressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libraryOfCongressTests.swift; sourceTree = "<group>"; };
+		9C785BC01DC2D68E00D54D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C785BC51DC2D68E00D54D15 /* libraryOfCongressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libraryOfCongressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C785BC91DC2D68E00D54D15 /* libraryOfCongressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libraryOfCongressUITests.swift; sourceTree = "<group>"; };
+		9C785BCB1DC2D68E00D54D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C785BD71DC2D6ED00D54D15 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiManager.swift; path = ../ApiManager.swift; sourceTree = "<group>"; };
+		9C785BD91DC2DA3D00D54D15 /* libraryCongressImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = libraryCongressImage.swift; path = ../libraryCongressImage.swift; sourceTree = "<group>"; };
+		9C785C211DC69CA800D54D15 /* UIImageExtension .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageExtension .swift"; path = "../UIImageExtension .swift"; sourceTree = "<group>"; };
+		9C785C231DC69E9C00D54D15 /* LibraryCongressTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LibraryCongressTableViewController.swift; path = ../LibraryCongressTableViewController.swift; sourceTree = "<group>"; };
+		9C785C251DC6A20400D54D15 /* LibraryCongressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LibraryCongressTableViewCell.swift; path = ../LibraryCongressTableViewCell.swift; sourceTree = "<group>"; };
+		9C785C271DC6AFA100D54D15 /* libraryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = libraryDetailViewController.swift; path = ../libraryDetailViewController.swift; sourceTree = "<group>"; };
+		9C785C291DC6FE7E00D54D15 /* libraryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = libraryDetailViewController.swift; path = "../../../projects/AC3.2-LibraryOfCongress/libraryDetailViewController.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C785BA31DC2D68E00D54D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C785BB71DC2D68E00D54D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C785BC21DC2D68E00D54D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C785B9D1DC2D68D00D54D15 = {
+			isa = PBXGroup;
+			children = (
+				9C785BA81DC2D68E00D54D15 /* libraryOfCongress */,
+				9C785BBD1DC2D68E00D54D15 /* libraryOfCongressTests */,
+				9C785BC81DC2D68E00D54D15 /* libraryOfCongressUITests */,
+				9C785BA71DC2D68E00D54D15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C785BA71DC2D68E00D54D15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C785BA61DC2D68E00D54D15 /* libraryOfCongress.app */,
+				9C785BBA1DC2D68E00D54D15 /* libraryOfCongressTests.xctest */,
+				9C785BC51DC2D68E00D54D15 /* libraryOfCongressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C785BA81DC2D68E00D54D15 /* libraryOfCongress */ = {
+			isa = PBXGroup;
+			children = (
+				9C785C271DC6AFA100D54D15 /* libraryDetailViewController.swift */,
+				9C785C291DC6FE7E00D54D15 /* libraryDetailViewController.swift */,
+				9C785BD71DC2D6ED00D54D15 /* ApiManager.swift */,
+				9C785C231DC69E9C00D54D15 /* LibraryCongressTableViewController.swift */,
+				9C785C251DC6A20400D54D15 /* LibraryCongressTableViewCell.swift */,
+				9C785C211DC69CA800D54D15 /* UIImageExtension .swift */,
+				9C785BD91DC2DA3D00D54D15 /* libraryCongressImage.swift */,
+				9C785BA91DC2D68E00D54D15 /* AppDelegate.swift */,
+				9C785BAD1DC2D68E00D54D15 /* Main.storyboard */,
+				9C785BB01DC2D68E00D54D15 /* Assets.xcassets */,
+				9C785BB21DC2D68E00D54D15 /* LaunchScreen.storyboard */,
+				9C785BB51DC2D68E00D54D15 /* Info.plist */,
+			);
+			path = libraryOfCongress;
+			sourceTree = "<group>";
+		};
+		9C785BBD1DC2D68E00D54D15 /* libraryOfCongressTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C785BBE1DC2D68E00D54D15 /* libraryOfCongressTests.swift */,
+				9C785BC01DC2D68E00D54D15 /* Info.plist */,
+			);
+			path = libraryOfCongressTests;
+			sourceTree = "<group>";
+		};
+		9C785BC81DC2D68E00D54D15 /* libraryOfCongressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C785BC91DC2D68E00D54D15 /* libraryOfCongressUITests.swift */,
+				9C785BCB1DC2D68E00D54D15 /* Info.plist */,
+			);
+			path = libraryOfCongressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C785BA51DC2D68E00D54D15 /* libraryOfCongress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C785BCE1DC2D68E00D54D15 /* Build configuration list for PBXNativeTarget "libraryOfCongress" */;
+			buildPhases = (
+				9C785BA21DC2D68E00D54D15 /* Sources */,
+				9C785BA31DC2D68E00D54D15 /* Frameworks */,
+				9C785BA41DC2D68E00D54D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libraryOfCongress;
+			productName = libraryOfCongress;
+			productReference = 9C785BA61DC2D68E00D54D15 /* libraryOfCongress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C785BB91DC2D68E00D54D15 /* libraryOfCongressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C785BD11DC2D68E00D54D15 /* Build configuration list for PBXNativeTarget "libraryOfCongressTests" */;
+			buildPhases = (
+				9C785BB61DC2D68E00D54D15 /* Sources */,
+				9C785BB71DC2D68E00D54D15 /* Frameworks */,
+				9C785BB81DC2D68E00D54D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C785BBC1DC2D68E00D54D15 /* PBXTargetDependency */,
+			);
+			name = libraryOfCongressTests;
+			productName = libraryOfCongressTests;
+			productReference = 9C785BBA1DC2D68E00D54D15 /* libraryOfCongressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C785BC41DC2D68E00D54D15 /* libraryOfCongressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C785BD41DC2D68E00D54D15 /* Build configuration list for PBXNativeTarget "libraryOfCongressUITests" */;
+			buildPhases = (
+				9C785BC11DC2D68E00D54D15 /* Sources */,
+				9C785BC21DC2D68E00D54D15 /* Frameworks */,
+				9C785BC31DC2D68E00D54D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C785BC71DC2D68E00D54D15 /* PBXTargetDependency */,
+			);
+			name = libraryOfCongressUITests;
+			productName = libraryOfCongressUITests;
+			productReference = 9C785BC51DC2D68E00D54D15 /* libraryOfCongressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C785B9E1DC2D68D00D54D15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Karen Fuentes";
+				TargetAttributes = {
+					9C785BA51DC2D68E00D54D15 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					9C785BB91DC2D68E00D54D15 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C785BA51DC2D68E00D54D15;
+					};
+					9C785BC41DC2D68E00D54D15 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C785BA51DC2D68E00D54D15;
+					};
+				};
+			};
+			buildConfigurationList = 9C785BA11DC2D68D00D54D15 /* Build configuration list for PBXProject "libraryOfCongress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C785B9D1DC2D68D00D54D15;
+			productRefGroup = 9C785BA71DC2D68E00D54D15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C785BA51DC2D68E00D54D15 /* libraryOfCongress */,
+				9C785BB91DC2D68E00D54D15 /* libraryOfCongressTests */,
+				9C785BC41DC2D68E00D54D15 /* libraryOfCongressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C785BA41DC2D68E00D54D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C785BB41DC2D68E00D54D15 /* LaunchScreen.storyboard in Resources */,
+				9C785BB11DC2D68E00D54D15 /* Assets.xcassets in Resources */,
+				9C785BAF1DC2D68E00D54D15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C785BB81DC2D68E00D54D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C785BC31DC2D68E00D54D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C785BA21DC2D68E00D54D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C785C241DC69E9C00D54D15 /* LibraryCongressTableViewController.swift in Sources */,
+				9C785C2A1DC6FE7E00D54D15 /* libraryDetailViewController.swift in Sources */,
+				9C785BDA1DC2DA3D00D54D15 /* libraryCongressImage.swift in Sources */,
+				9C785C281DC6AFA100D54D15 /* libraryDetailViewController.swift in Sources */,
+				9C785C261DC6A20400D54D15 /* LibraryCongressTableViewCell.swift in Sources */,
+				9C785BD81DC2D6ED00D54D15 /* ApiManager.swift in Sources */,
+				9C785BAA1DC2D68E00D54D15 /* AppDelegate.swift in Sources */,
+				9C785C221DC69CA800D54D15 /* UIImageExtension .swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C785BB61DC2D68E00D54D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C785BBF1DC2D68E00D54D15 /* libraryOfCongressTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C785BC11DC2D68E00D54D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C785BCA1DC2D68E00D54D15 /* libraryOfCongressUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C785BBC1DC2D68E00D54D15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C785BA51DC2D68E00D54D15 /* libraryOfCongress */;
+			targetProxy = 9C785BBB1DC2D68E00D54D15 /* PBXContainerItemProxy */;
+		};
+		9C785BC71DC2D68E00D54D15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C785BA51DC2D68E00D54D15 /* libraryOfCongress */;
+			targetProxy = 9C785BC61DC2D68E00D54D15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C785BAD1DC2D68E00D54D15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C785BAE1DC2D68E00D54D15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C785BB21DC2D68E00D54D15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C785BB31DC2D68E00D54D15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C785BCC1DC2D68E00D54D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C785BCD1DC2D68E00D54D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C785BCF1DC2D68E00D54D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = libraryOfCongress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = c4q.libraryOfCongress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9C785BD01DC2D68E00D54D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = libraryOfCongress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = c4q.libraryOfCongress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9C785BD21DC2D68E00D54D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = libraryOfCongressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = c4q.libraryOfCongressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libraryOfCongress.app/libraryOfCongress";
+			};
+			name = Debug;
+		};
+		9C785BD31DC2D68E00D54D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = libraryOfCongressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = c4q.libraryOfCongressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libraryOfCongress.app/libraryOfCongress";
+			};
+			name = Release;
+		};
+		9C785BD51DC2D68E00D54D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = libraryOfCongressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = c4q.libraryOfCongressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = libraryOfCongress;
+			};
+			name = Debug;
+		};
+		9C785BD61DC2D68E00D54D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = libraryOfCongressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = c4q.libraryOfCongressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = libraryOfCongress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C785BA11DC2D68D00D54D15 /* Build configuration list for PBXProject "libraryOfCongress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C785BCC1DC2D68E00D54D15 /* Debug */,
+				9C785BCD1DC2D68E00D54D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C785BCE1DC2D68E00D54D15 /* Build configuration list for PBXNativeTarget "libraryOfCongress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C785BCF1DC2D68E00D54D15 /* Debug */,
+				9C785BD01DC2D68E00D54D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C785BD11DC2D68E00D54D15 /* Build configuration list for PBXNativeTarget "libraryOfCongressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C785BD21DC2D68E00D54D15 /* Debug */,
+				9C785BD31DC2D68E00D54D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C785BD41DC2D68E00D54D15 /* Build configuration list for PBXNativeTarget "libraryOfCongressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C785BD51DC2D68E00D54D15 /* Debug */,
+				9C785BD61DC2D68E00D54D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C785B9E1DC2D68D00D54D15 /* Project object */;
+}
